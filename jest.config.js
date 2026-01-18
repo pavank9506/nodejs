@@ -3,5 +3,6 @@ module.exports = {
   testMatch: [
     '**/test/unit/**/*.test.js',
     '**/test/integration/**/*.test.js'
-  ]
+  ],
+  setupFilesAfterEnv: ['./jest.setup.js']
 };
